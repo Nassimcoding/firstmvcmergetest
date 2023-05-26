@@ -10,5 +10,7 @@ namespace aspmvccore6test1.Models
 
         //using (SqlConnection cn = ) 
 
+        public static List<string?> product_NOP = new List<string?>();
+
     }
 }

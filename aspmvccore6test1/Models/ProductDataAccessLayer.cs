@@ -23,9 +23,9 @@ namespace aspmvccore6test1.Models
                 con.Open();
                 SqlDataReader rdr = cmd.ExecuteReader();
 
-                while (rdr.Read())
+                while (rdr.Read() == true)
                 {
-                    Product.NOP = rdr["NOP"].ToString();
+                    GVariable.product_NOP.Add(Convert.ToString(rdr["NOP"]));
                 }
             }
             return product;

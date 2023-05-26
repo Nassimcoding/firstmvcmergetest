@@ -23,10 +23,14 @@ namespace aspmvccore6test1.Controllers
         [HttpGet]
         public IActionResult Details()
         {
+
+
             Product? product = ProductDataAccessLayer.GetStudentData();
+            ViewData["A"] = ProductDataAccessLayer.GetStudentData();
+            ViewData["B"] = "ASJHSDKJF";
+            ViewData["C"] = GVariable.product_NOP[0];
 
-
-            return View(product);
+            return View();
         }
 
     }
