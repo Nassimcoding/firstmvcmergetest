@@ -12,5 +12,18 @@ namespace aspmvccore6test1.Models
 
         public static List<string?> product_NOP = new List<string?>();
 
+
+
+
+
+
+        //linklist variable
+        public static List<string?> linklistvar = new List<string?>();
+
+
+
+        //multiway tree
+        public static List<string?> multiwaytree_list = new List<string?>();
+
     }
 }

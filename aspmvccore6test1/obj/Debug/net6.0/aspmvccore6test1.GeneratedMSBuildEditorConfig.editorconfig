@@ -35,12 +35,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmZvcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Nassim/allinonecsharp/aspmvccore6test1/aspmvccore6test1/Views/Home/multitree_test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtdWx0aXRyZWVfdGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nassim/allinonecsharp/aspmvccore6test1/aspmvccore6test1/Views/Home/mutitree1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtdXRpdHJlZTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Nassim/allinonecsharp/aspmvccore6test1/aspmvccore6test1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Nassim/allinonecsharp/aspmvccore6test1/aspmvccore6test1/Views/Home/test1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0ZXN0MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nassim/allinonecsharp/aspmvccore6test1/aspmvccore6test1/Views/Home/treecsql.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0cmVlY3NxbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Nassim/allinonecsharp/aspmvccore6test1/aspmvccore6test1/Views/Shared/Error.cshtml]
