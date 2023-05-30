@@ -35,28 +35,25 @@ namespace aspmvccore6test1.Models
 
 
         //}
+        private Node? root;
 
-
-
-        private Node root;
-
-        public MultiTree()
-        {
-            root = null;
-        }
+        //public void MultiTree1()
+        //{
+        //    root = null;
+        //}
 
         //public
 
         public void AddNode(string? value, string? parentValue)
         {
-            Node newNode = new Node(value);
+            Node? newNode = new Node(value);
 
             if (root == null)
             {
                 root = newNode;
                 return;
             }
-            T? convertpass = (T)Convert.ChangeType(parentValue, typeof(T));
+            T? convertpass = (T?)Convert.ChangeType(parentValue, typeof(T?));
 
             Node? parentNode = FindNode(root, convertpass);
             if (parentNode != null)
@@ -69,7 +66,7 @@ namespace aspmvccore6test1.Models
             }
         }
 
-        public void RemoveNode(T value)
+        public void RemoveNode(T? value)
         {
             if (root == null)
             {
@@ -87,7 +84,7 @@ namespace aspmvccore6test1.Models
 
 
 
-        private bool RemoveNode(Node currentNode, T value)
+        private bool RemoveNode(Node currentNode, T? value)
         {
             foreach (Node child in currentNode.Children)
             {
@@ -135,7 +132,7 @@ namespace aspmvccore6test1.Models
             }
         }
 
-        private Node FindNode(Node currentNode, T value)
+        private Node FindNode(Node currentNode, T? value)
         {
             if (currentNode.Value.Equals(value))
             {
